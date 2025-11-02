@@ -1,6 +1,6 @@
-# Code Smell Refactoring Report – TicTacToe Tests
-## 1. Repeated Setup Code (Lines ~13–116)
-### Smelly Code Each test repeats a long, similar sequence of moves using `game.Play()`.  
+Code Smell Refactoring Report – TicTacToe Tests
+Repeated Setup Code (Lines ~13–116)
+Smelly Code Each test repeats a long, similar sequence of moves using `game.Play()`.  
 This violates the **DRY (Don't Repeat Yourself)** principle.
 Example from multiple tests
 game.Play('X', 0, 0);
